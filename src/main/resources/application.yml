@@ -1,1 +1,20 @@
-spring.application.name=ollama-spring
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5435/ollama
+    username: postgres
+    password: postgres
+  ai:
+    ollama:
+      base-url: http://localhost:11434
+      chat:
+        model: llama3.2
+      embedding:
+        model: nomic-embed-text
+    vectorstore:
+      pgvector:
+        index-type: HNSW
+        distance-type: COSINE_DISTANCE
+        dimensions: 768
+        max-document-batch-size: 10000
+        initialize-schema: true
+        remove-existing-vectors-on-write: true
