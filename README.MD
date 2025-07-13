@@ -43,7 +43,7 @@ Before running this application, ensure you have the following installed:
 ### 1. Clone the Repository
 ```bash
 git clone https://github.com/Dancan254/ollama-spring
-cd ollama-spring-rag
+cd ollama-spring
 ```
 
 ### 2. Start the Database
