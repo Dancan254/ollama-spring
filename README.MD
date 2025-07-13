@@ -42,7 +42,7 @@ Before running this application, ensure you have the following installed:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Dancan254/ollama-spring
 cd ollama-spring-rag
 ```
 
